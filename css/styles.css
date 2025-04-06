@@ -769,9 +769,11 @@ span {
 
 /*--footer-subscribe--*/
 
-.footer-row {
+.footer-form {
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -794,7 +796,6 @@ span {
   background-color: transparent;
   padding: 8px 16px;
   margin-left: 80px;
-  font-weight: 400;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -809,22 +810,23 @@ span {
   gap: 16px;
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
-  background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   color: #fff;
+  background-color: #4d5ae5;
   border: none;
 }
 
 .icon-send {
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   fill: #fff;
+  margin-left: 16px;
 }
 
 .modal-btn,

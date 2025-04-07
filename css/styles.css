@@ -798,8 +798,7 @@ span {
 
 .input-wrap {
   display: flex;
-  align-items: center; /* Вирівнює інпут і кнопку по вертикалі */
-  gap: 10px; /* Відстань між інпутом і кнопкою */
+  align-items: center;
 }
 
 .footer-input {
@@ -814,6 +813,7 @@ span {
   line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
+  display: inline-block;
 }
 
 .footer-btn {
@@ -822,7 +822,6 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   border-radius: 4px;
   min-width: 165px;
   height: 40px;
@@ -841,6 +840,7 @@ span {
   width: 24px;
   height: 24px;
   fill: #fff;
+  margin-left: 16px;
 }
 
 .modal-btn,

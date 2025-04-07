@@ -784,6 +784,7 @@ span {
   align-items: center;
   justify-content: center;
   gap: 24px;
+  margin-left: 80px;
 }
 
 .subscribe-text {
@@ -795,7 +796,7 @@ span {
   margin-bottom: 16px;
 }
 
-.input-btn-wrap {
+.input-wrap {
   display: flex;
   align-items: center; /* Вирівнює інпут і кнопку по вертикалі */
   gap: 10px; /* Відстань між інпутом і кнопкою */

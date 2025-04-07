@@ -597,7 +597,8 @@ img {
   justify-content: center;
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
@@ -611,7 +612,7 @@ img {
 }
 
 .icon-close {
- transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-title {
@@ -721,7 +722,7 @@ img {
   color: #fff;
   border: none;
   cursor: pointer;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea {
@@ -757,7 +758,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   margin-top: 0px;
 }
 
@@ -768,15 +769,15 @@ a {
 }
 
 span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 12px;
   fill: transparent;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

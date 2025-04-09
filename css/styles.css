@@ -799,6 +799,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-left: 80px;
+  gap: 24px;
 }
 
 .subscribe-text {
@@ -848,7 +849,7 @@ img {
   color: #fff;
   background-color: #4d5ae5;
   border: none;
-  margin-left: 24px;
+  
 }
 .footer-btn:hover,
 .footer-btn:focus {
